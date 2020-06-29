@@ -15,7 +15,7 @@ echo "<h4>" . $nom_produit . "</h4>";
 
 echo "<p> Acheter 3 produits couterait " . $prix *3 . "</p>";
 echo "<p> Acheter la totalite des produits disponibles couterait " . $quantite * $prix . "</p>";
-echo "<p> Si 3 produits sont vendus </h4>";
+echo "<p> Si 3 produits sont vendus, alors il reste " . ($quantite - 3) . "produits en stock" "</h4>";
 
 if ($disponible == true) {
 echo "<p> Le produit " . $nom_produit . " est disponible en ligne </p>";
