@@ -10,7 +10,9 @@
 
     <body>
         <?php
-        include("header.php");?>
+        $page_title = "Programme";
+        include("header.php");
+        ?>
         
         <main class="programme">
 
@@ -137,7 +139,8 @@
     </main>
 
         <?php 
-        include("footer.php");?>
+        include("footer.php");
+        ?>
 
             
     

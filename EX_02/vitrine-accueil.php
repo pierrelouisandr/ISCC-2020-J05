@@ -10,7 +10,9 @@
 
     <body>
         <?php 
-        include("header.php");?>
+        $page_title = "Accueil";
+        include("header.php");
+        ?>
         
         <main class="accueil">
 
@@ -31,7 +33,8 @@
     </main>
 
        <?php 
-       include("footer.php");?>
+       include("footer.php");
+       ?>
     
     </body>
     </html>

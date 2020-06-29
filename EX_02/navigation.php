@@ -1,8 +1,7 @@
 <nav>
-                    
-     <a href="vitrine-accueil.php">Accueil </a>
-     <a href="vitrine-programme.php">programme </a>
-     <a href="vitrine-contacts.php">contacts </a>
-                    
-                    
+ 
+<a <?php if ($page_title == "Accueil") {echo 'class="active"';} ?> href="vitrine-accueil.php"> ACCUEIL </a>
+<a <?php if ($page_title == "Programme") {echo 'class="active"';} ?> href="vitrine-programme.php"> PROGRAMME </a>
+<a <?php if ($page_title == "Contact") {echo 'class="active"';} ?> href="vitrine-contacts.php"> CONTACTS </a>
+
 </nav>

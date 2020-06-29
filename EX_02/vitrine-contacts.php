@@ -10,7 +10,9 @@
 
     <body>
         <?php
-        include("header.php");?>
+        $page_title = "Contact";
+        include("header.php");
+        ?>
        
     <main class="contact">
 
@@ -33,7 +35,8 @@
                 
     </main>
     <?php
-    include("footer.php");?>
+    include("footer.php");
+    ?>
 
      
     </body>
